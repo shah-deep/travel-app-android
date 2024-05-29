@@ -160,7 +160,7 @@ public class DestinationActivity extends AppCompatActivity implements OnMapReady
                     locationString,
                     500, // Radius in meters (optional)
                     types,
-                    "AIzaSyA2LrW6ifbrEP7sxk5WVoHDBgldKmRhTcA"
+                    "<Add Your API Key Here>"
             );
 
             Log.d("REQUEST", String.valueOf(call.request().body()));
