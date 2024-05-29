@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@android:id/background">
+    <shape android:shape="rectangle">
+        <size
+            android:width="321dp"
+            android:height="50dp" />
+        <!-- You can also set other attributes such as corner radius, stroke, etc. -->
+        <solid android:color="@android:color/transparent" />
+    </shape>
+</item>
+<!-- This is your custom background, adjust as needed -->
+<item android:drawable="@drawable/search_box" />
+</layer-list>
